@@ -48,7 +48,7 @@ async function main(){
     await mongoose.connect(process.env.MONGO_URI);
     const model = mongoose.model('Location', Locations);
     await pushJsontoMongoose(model);
-    console.log("Done !")
+    console.log("Donefff !")
 }
 
 main();
